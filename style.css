@@ -7,7 +7,7 @@
   scroll-behavior: smooth;/*شريط التمرير ناعم بمعنى لما يتنقل داخل الصفحة ميهبطش مباشرة للاسفل وانما بصفة ناعمة*/
 }
 header {
-background-color: #f0f0f0;
+background-color: #e2f7e2;
 width: 100%;
 position: fixed;
 z-index: 99%; /*يخلي الراس دائما هو الي ظاهر فوق*/
@@ -235,7 +235,7 @@ margin-bottom: 30px;
     border-radius: 5px;
     width: 250px;
   height: 250px;
-  object-fit: cover;
+  object-fit: contain;
   }
   .product p {
     margin: 5px 0;
